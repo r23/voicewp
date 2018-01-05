@@ -1,0 +1,550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VoiceWP\n"
+"POT-Creation-Date: 2018-01-05 04:25+0100\n"
+"PO-Revision-Date: 2018-01-05 04:36+0100\n"
+"Last-Translator: r23 <info@r23.de>\n"
+"Language-Team: r23 <info@r23.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: voicewp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: alexa/request/application.php:33
+msgid "Application Id not matched"
+msgstr ""
+
+#: alexa/request/certificate.php:101
+msgid "Request timestamp was too old. Possible replay attack."
+msgstr ""
+
+#: alexa/request/certificate.php:114
+msgid ""
+"The remote certificate doesn't contain a valid SANs in the signature or is "
+"expired."
+msgstr ""
+
+#: alexa/request/certificate.php:129
+msgid "Request signature could not be verified"
+msgstr ""
+
+#: alexa/request/certificate.php:167
+msgid "Protocol isn't secure. Request isn't from Alexa."
+msgstr ""
+
+#: alexa/request/certificate.php:169
+msgid "Certificate isn't from Amazon. Request isn't from Alexa."
+msgstr ""
+
+#: alexa/request/certificate.php:171
+#, php-format
+msgid "Certificate isn't in '%s' folder. Request isn't from Alexa."
+msgstr ""
+
+#: alexa/request/certificate.php:173
+#, php-format
+msgid "Port isn't %s. Request isn't from Alexa."
+msgstr ""
+
+#: alexa/request/request.php:31
+msgid "Alexa Request requires the raw JSON data to validate request signature"
+msgstr ""
+
+#: alexa/request/request.php:92
+#, php-format
+msgid "Unknown request type: %s"
+msgstr "Unbekannter Anforderungstyp: %s"
+
+#: alexa/skill/news.php:88 inc/fields.php:257
+msgid "Which article would you like to hear?"
+msgstr "Welchen Artikel möchten Sie hören?"
+
+#. translators: %s: site title
+#: alexa/skill/news.php:93
+#, php-format
+msgid "Latest from %s"
+msgstr ""
+
+#: alexa/skill/news.php:231
+msgid ""
+"You can select between one and five, please select an item within that range."
+msgstr ""
+
+#: alexa/skill/news.php:234
+msgid ""
+"Sorry! I couldn't find any news about that topic. Try asking something else!"
+msgstr ""
+
+#: inc/class-voicewp.php:40
+msgid "To test your skill, use an Alexa enabled device or Echosim.io"
+msgstr ""
+
+#: inc/class-voicewp.php:101
+msgid "Request body is empty"
+msgstr ""
+
+#. translators: 1: minimum WordPress version, 2: current WordPress version
+#: inc/compat.php:28
+#, php-format
+msgid ""
+"VoiceWP requires at least WordPress version %1$s. You are currently running "
+"version %2$s."
+msgstr ""
+"VoiceWP benötigt mindestens WordPress Version%1$s. Sie führen derzeit die "
+"Version%2$s aus."
+
+#: inc/compat.php:36
+msgid "VoiceWP requires the WordPress REST API."
+msgstr "VoiceWP benötigt die WordPress REST API."
+
+#: inc/compat.php:40
+msgid "VoiceWP requires the WordPress Fieldmanager plugin."
+msgstr "VoiceWP benötigt das WordPress Fieldmanager Plugin."
+
+#. translators: 1: minimum Fieldmanager version, 2: current Fieldmanager version
+#: inc/compat.php:48
+#, php-format
+msgid ""
+"VoiceWP requires at least Fieldmanager version %1$s. You are currently "
+"running version %2$s."
+msgstr ""
+"VoiceWP benötigt mindestens die Fieldmanager-Version%1$s. Sie führen derzeit "
+"die Version%2$s aus."
+
+#: inc/fields.php:11
+msgid "Skill Type"
+msgstr ""
+
+#: inc/fields.php:16 inc/fields.php:203
+msgid "Fact / Quote"
+msgstr ""
+
+#: inc/fields.php:18
+msgid "What type of functionality is being added?"
+msgstr "Welche Art von Funktionalität wird hinzugefügt?"
+
+#: inc/fields.php:20
+msgid "Default App Card Image"
+msgstr ""
+
+#: inc/fields.php:22
+msgid ""
+"Image to be used when no other is provided. App cards can be displayed "
+"within the Alexa app when she responds to a user request."
+msgstr ""
+
+#: inc/fields.php:26
+msgid "This is a standalone skill"
+msgstr ""
+
+#: inc/fields.php:27
+msgid "Will this be its own skill or is this part of another skill?"
+msgstr ""
+
+#: inc/fields.php:29
+msgid "Alexa Application ID"
+msgstr ""
+
+#: inc/fields.php:31 inc/fields.php:268
+msgid "Add the application ID given by Amazon"
+msgstr ""
+
+#: inc/fields.php:42
+msgid ""
+"This is the endpoint URL of your skill. Paste this within the configuration "
+"tab for your skill in the developer portal."
+msgstr ""
+
+#: inc/fields.php:63
+msgid "Skill Settings"
+msgstr ""
+
+#: inc/fields.php:78
+msgid "Source"
+msgstr ""
+
+#: inc/fields.php:88 inc/fields.php:101
+msgid "Text"
+msgstr ""
+
+#: inc/fields.php:89 inc/fields.php:112
+msgid "HTTPS URL to an MP3"
+msgstr ""
+
+#: inc/fields.php:90 inc/fields.php:128
+msgid "Uploaded MP3"
+msgstr ""
+
+#: inc/fields.php:102
+msgid "Text should be under 4,500 characters."
+msgstr ""
+
+#: inc/fields.php:130 inc/fields.php:132
+msgid "Select a File"
+msgstr ""
+
+#: inc/fields.php:131
+msgid "Select File"
+msgstr ""
+
+#: inc/fields.php:166
+msgid "Please make sure this is a URL to an MP3 file."
+msgstr ""
+
+#: inc/fields.php:176
+msgid "Please make sure this is an MP3 upload."
+msgstr ""
+
+#: inc/fields.php:180
+msgid "Audio should be under 10 minutes long."
+msgstr ""
+
+#: inc/fields.php:188
+msgid "Briefing Content"
+msgstr "Briefing Inhalt"
+
+#: inc/fields.php:200
+msgid "Add another fact or quote"
+msgstr ""
+
+#: inc/fields.php:204
+msgid "Add a fact or quote"
+msgstr ""
+
+#: inc/fields.php:207
+msgid "Attribution"
+msgstr ""
+
+#: inc/fields.php:208
+msgid "Add attribution if applicable"
+msgstr ""
+
+#: inc/fields.php:211
+msgid "Alexa App Card Image"
+msgstr ""
+
+#: inc/fields.php:215
+msgid "Facts / Quotes"
+msgstr ""
+
+#: inc/fields.php:236
+msgid "Skill name"
+msgstr ""
+
+#: inc/fields.php:237
+msgid "Optional name of skill. If empty, site name will be used instead."
+msgstr ""
+
+#: inc/fields.php:243
+msgid "Welcome message"
+msgstr "Willkommen-Mitteilung"
+
+#: inc/fields.php:244
+msgid ""
+"This is the message a person hears when they open your skill with an "
+"utterance such as \"Alexa, open {your skill name}\""
+msgstr ""
+
+#: inc/fields.php:245
+msgid ""
+"Welcome to the {put your skill name here} Skill. This skill allows you to "
+"listen to content from {your site name}. You can ask questions like: What "
+"are the latest articles? ... Now, what can I help you with."
+msgstr ""
+"Willkommen beim {dein Skillname} Skill. Mit diesem Skill können Sie Inhalte "
+"von {Name Ihrer Website} anhören. Sie können Fragen stellen wie: Was sind "
+"die neuesten Artikel? ... Nun, womit kann ich Ihnen helfen."
+
+#: inc/fields.php:249
+msgid "Help message"
+msgstr ""
+
+#: inc/fields.php:250
+msgid "This is the message a person hears when they ask your skill for 'help'"
+msgstr ""
+
+#: inc/fields.php:251
+msgid ""
+"{put your skill name here} provides you with the latest content from {your "
+"site name}. You can ask me for the latest articles, and then select an item "
+"from the list by saying, for example, 'read the 3rd article' Or you can also "
+"say exit... What can I help you with?"
+msgstr ""
+"{Geben Sie hier Ihren Skillnamen ein} stellt Ihnen den neuesten Inhalt aus "
+"{Name Ihrer Site} zur Verfügung. Sie können mich nach den neuesten Artikeln "
+"fragen und dann einen Artikel aus der Liste auswählen, indem Sie zum "
+"Beispiel sagen: \"Lesen Sie den 3. Artikel\" Oder Sie können auch sagen, "
+"dass Sie den Ausgang verlassen ... Was sind die neuesten Artikel?"
+
+#: inc/fields.php:255
+msgid "List Prompt"
+msgstr ""
+
+#: inc/fields.php:256
+msgid ""
+"This message prompts the user to select a piece of content to be read after "
+"hearing the headlines."
+msgstr ""
+
+#: inc/fields.php:261
+msgid "Stop message"
+msgstr ""
+
+#: inc/fields.php:262
+msgid ""
+"You can optionally provide a message when a person is done with your skill."
+msgstr ""
+
+#: inc/fields.php:263
+msgid "Thanks for listening!"
+msgstr ""
+
+#: inc/fields.php:267
+msgid "News skill ID"
+msgstr ""
+
+#: inc/fields.php:274
+msgid "Allow people to ask for content from specific:"
+msgstr ""
+
+#: inc/fields.php:280
+msgid "Word Pronunciation Substitutions"
+msgstr "Wort-Aussprache-Ersatz"
+
+#: inc/fields.php:282
+msgid ""
+"This allows you to define a global dictionary of words, phrases, "
+"abbreviations that Alexa should pronounce a certain way. For example, "
+"perhaps every occurrance of the state abreviation 'TN' should be pronounced "
+"as 'Tennessee', or 'NYC should be read as 'New York City' or the chemical "
+"'Mg' read as 'Magnesium'. "
+msgstr ""
+
+#: inc/fields.php:288
+msgid "Phrase / Word / Abbreviation"
+msgstr ""
+
+#: inc/fields.php:290
+msgid "Add another phrase, word, or abbreviation"
+msgstr ""
+
+#: inc/fields.php:294
+msgid "Phrase to pronounce differently"
+msgstr ""
+
+#: inc/fields.php:300
+msgid "How the above phrase should be pronounced."
+msgstr ""
+
+#: inc/fields.php:313
+msgid ""
+"The Intent Schema for your News skill. Add this to your news skill in the <a "
+"href=\"https://developer.amazon.com\" target=\"_blank\">Amazon developer "
+"console</a>."
+msgstr ""
+
+#: inc/fields.php:324
+msgid "Custom Slot Types"
+msgstr ""
+
+#: inc/fields.php:328
+msgid ""
+"These slot types must be added to your news skill in the Amazon developer "
+"portal."
+msgstr ""
+
+#: inc/fields.php:330 inc/fields.php:346
+msgid "Type"
+msgstr ""
+
+#: inc/fields.php:338 inc/fields.php:354
+msgid "Values"
+msgstr ""
+
+#: inc/fields.php:380
+msgid ""
+"Here's a starting point for your skill's Sample Utterances. You can add "
+"these to your news skill in the <a href=\"https://developer.amazon.com\" "
+"target=\"_blank\">Amazon developer console</a>."
+msgstr ""
+
+#: inc/fields.php:391
+msgid "Interaction Model"
+msgstr ""
+
+#: inc/fields.php:404
+msgid "Alexa Skill Settings"
+msgstr ""
+
+#: inc/fields.php:440
+msgid "Flash Briefing URL"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:26
+#: inc/post-types/class-voicewp-post-type-briefing.php:37
+msgid "Briefings"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:27
+msgid "Briefing"
+msgstr "Briefing"
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:28
+#: inc/post-types/class-voicewp-post-type-briefing.php:29
+msgid "Add New Briefing"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:30
+msgid "Edit Briefing"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:31
+msgid "New Briefing"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:32
+msgid "View Briefing"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:33
+msgid "Search Briefing"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:34
+msgid "No Briefings found"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:35
+msgid "No Briefings found in Trash"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-briefing.php:36
+msgid "Parent Briefing:"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:35
+#: inc/post-types/class-voicewp-post-type-skill.php:46
+msgid "Skills"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:36
+msgid "Skill"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:37
+#: inc/post-types/class-voicewp-post-type-skill.php:38
+msgid "Add New Skill"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:39
+msgid "Edit Skill"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:40
+msgid "New Skill"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:41
+msgid "View Skill"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:42
+msgid "Search Skills"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:43
+msgid "No Skills found"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:44
+msgid "No Skills found in Trash"
+msgstr ""
+
+#: inc/post-types/class-voicewp-post-type-skill.php:45
+msgid "Parent Skill:"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:38
+#: inc/taxonomies/class-voicewp-briefing-category.php:52
+msgid "Briefing Categories"
+msgstr "Briefing-Kategorien"
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:39
+msgid "Briefing Category"
+msgstr "Briefing-Kategorie"
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:40
+msgid "Search Briefing Categories"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:41
+msgid "Popular Briefing Categories"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:42
+msgid "All Briefing Categories"
+msgstr "Alle Briefing-Kategorien"
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:43
+#: inc/taxonomies/class-voicewp-briefing-category.php:44
+msgid "Parent Briefing Category"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:45
+msgid "Edit Briefing Category"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:46
+msgid "View Briefing Category"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:47
+msgid "Update Briefing Category"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:48
+msgid "Add New Briefing Category"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:49
+msgid "New Briefing Category Name"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:50
+msgid "Add or remove Briefing Categories"
+msgstr ""
+
+#: inc/taxonomies/class-voicewp-briefing-category.php:51
+msgid "Choose from most used Briefing Categories"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "VoiceWP"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/tomharrigan/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create Alexa skills using your WordPress site"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "TomHarrigan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://voicewp.com"
+msgstr ""
