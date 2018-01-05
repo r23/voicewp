@@ -66,21 +66,21 @@ Join us on [Gitter](https://gitter.im/voicewp/Lobby) for general discussions or 
 A Briefings post type is created which is intended to be used for the Flash Briefing skill.
 
 The endpoint for this will be at:
-`https://yourdomain.com/wp-json/voicewp/v1/skill/briefing`
+`https://example.org/wp-json/voicewp/v1/skill/briefing`
 
 #### Fact/Quote Skills
 
 A Skills post type is created for generic skill creation. Out of the box, Fact/Quote skills can be created.
 
 The endpoint for this will be at:
-`https://yourdomain.com/wp-json/voicewp/v1/skill/(post_id)`
+`https://example.org/wp-json/voicewp/v1/skill/(post_id)`
 
 #### News Skill
 
 This news/content skill will currently read the 5 latest headlines from your WordPress posts and allows the user to choose a post to be read in full.
 
 The endpoint for this will be at:
-`https://yourdomain.com/wp-json/voicewp/v1/skill/news`
+`https://example.org/wp-json/voicewp/v1/skill/news`
 
 ### Settings
 
@@ -134,7 +134,7 @@ Now, go to the next tab, Interaction Model. This is where, if creating a custom 
 
 ![interation_model_dev](https://user-images.githubusercontent.com/784167/27160313-36726d28-5141-11e7-9315-063abb6430a8.png)
 
-Next up is the Configuration tab. Choose HTTPS as the endpoint type. Select the appropriate region (North America or Europe), and then paste the endpoint URL. (For the news skill, this is `https://yourdomain.com/wp-json/voicewp/v1/skill/news`).
+Next up is the Configuration tab. Choose HTTPS as the endpoint type. Select the appropriate region (North America or Europe), and then paste the endpoint URL. (For the news skill, this is `https://example.org/wp-json/voicewp/v1/skill/news`).
 
 Last up is the SSL certificate tab:
 

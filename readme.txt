@@ -20,19 +20,19 @@ Out of the box this plugin supports the creation of three types of skills:
 
 A Briefings post type is created which is intended to be used for a Flash Briefing skill.
 
-The endpoint for this will be at: `https://yourdomain.com/wp-json/voicewp/v1/skill/briefing`
+The endpoint for this will be at: `http://example.org/wp-json/voicewp/v1/skill/briefing`
 
 **Fact/Quote Skills**
 
 A Skills post type is created for generic skill creation. Out of the box Fact/Quote skills can be created.
 
-The endpoint for this will be at: `https://yourdomain.com/wp-json/voicewp/v1/skill/(post_id)`
+The endpoint for this will be at: `http://example.org/wp-json/voicewp/v1/skill/(post_id)`
 
 **News from your posts Skill**
 
 This news/content skill will currently read the 5 latest headlines from your regular WordPress posts and allows the listener to choose a post to be read in full.
 
-The endpoint for this will be at: `https://yourdomain.com/wp-json/voicewp/v1/skill/news`
+The endpoint for this will be at: `http://example.org/wp-json/voicewp/v1/skill/news`
 
 == Installation ==
 
