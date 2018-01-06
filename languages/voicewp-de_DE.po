@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VoiceWP\n"
 "POT-Creation-Date: 2018-01-05 04:25+0100\n"
-"PO-Revision-Date: 2018-01-05 04:36+0100\n"
+"PO-Revision-Date: 2018-01-06 03:48+0100\n"
 "Last-Translator: r23 <info@r23.de>\n"
 "Language-Team: r23 <info@r23.de>\n"
 "Language: de_DE\n"
@@ -45,12 +45,14 @@ msgstr ""
 
 #: alexa/request/certificate.php:169
 msgid "Certificate isn't from Amazon. Request isn't from Alexa."
-msgstr ""
+msgstr "Das Zertifikat stammt nicht von Amazon. Anfrage ist nicht von Alexa."
 
 #: alexa/request/certificate.php:171
 #, php-format
 msgid "Certificate isn't in '%s' folder. Request isn't from Alexa."
 msgstr ""
+"Das Zertifikat befindet sich nicht im Ordner \"%s\". Anfrage ist nicht von "
+"Alexa."
 
 #: alexa/request/certificate.php:173
 #, php-format
@@ -74,7 +76,7 @@ msgstr "Welchen Artikel möchten Sie hören?"
 #: alexa/skill/news.php:93
 #, php-format
 msgid "Latest from %s"
-msgstr ""
+msgstr "Das Neueste von %s"
 
 #: alexa/skill/news.php:231
 msgid ""
@@ -85,6 +87,8 @@ msgstr ""
 msgid ""
 "Sorry! I couldn't find any news about that topic. Try asking something else!"
 msgstr ""
+"Es tut uns leid! Ich konnte keine Neuigkeiten zu diesem Thema finden. Frag "
+"etwas anderes!"
 
 #: inc/class-voicewp.php:40
 msgid "To test your skill, use an Alexa enabled device or Echosim.io"
@@ -308,7 +312,7 @@ msgstr ""
 
 #: inc/fields.php:263
 msgid "Thanks for listening!"
-msgstr ""
+msgstr "Danke fürs Zuhören!"
 
 #: inc/fields.php:267
 msgid "News skill ID"
@@ -333,7 +337,7 @@ msgstr ""
 
 #: inc/fields.php:288
 msgid "Phrase / Word / Abbreviation"
-msgstr ""
+msgstr "Phrase / Wort / Abkürzung"
 
 #: inc/fields.php:290
 msgid "Add another phrase, word, or abbreviation"
@@ -539,7 +543,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid "Create Alexa skills using your WordPress site"
-msgstr ""
+msgstr "Erstellen Sie Alexa-Fähigkeiten mit Ihrer WordPress-Website"
 
 #. Author of the plugin/theme
 msgid "TomHarrigan"

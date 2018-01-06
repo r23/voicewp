@@ -20,6 +20,9 @@ class News {
 		'AMAZON.StopIntent',
 		'AMAZON.HelpIntent',
 		'AMAZON.CancelIntent',
+		'Neueste',
+		'AktuellesTerm',
+		'LeseBeitrag'		
 	);
 
 	/**
@@ -33,6 +36,7 @@ class News {
 			$intent = $request->intent_name;
 			switch ( $intent ) {
 				case 'LatestTerm':
+				case 'AktuellesTerm':
 					$term_slot = strtolower( sanitize_text_field( $request->getSlot( 'TermName' ) ) );
 					if ( $term_slot ) {
 						$news_taxonomies = voicewp_news_taxonomies();
@@ -65,6 +69,7 @@ class News {
 					}
 					// No break. Logic continues into Latest case
 				case 'Latest':
+				case 'Neueste':
 					/* Since the above switch statement doesn't break,
 					 * it will continue running into this block,
 					 * which allows the below $tax_query var to be set,
@@ -94,6 +99,7 @@ class News {
 						->add_session_attribute( 'post_ids', $result['ids'] );
 					break;
 				case 'ReadPost':
+				case 'LesenBeitrag':
 					if ( $post_number = $request->getSlot( 'PostNumberWord' ) ) {
 						if ( 'second' === $post_number ) {
 							/**
@@ -260,7 +266,9 @@ class News {
 				foreach ( $news_posts as $key => $news_post ) {
 					// Appending 'th' to any number results in proper ordinal pronunciation
 					// TODO: Sounds a little strange when there's only one result.
-					$content .= ( $key + 1 ) . 'th, ' . $news_post->post_title . '. ';
+					// $content .= ( $key + 1 ) . 'th, ' . $news_post->post_title . '. ';
+					// switch english / german
+					$content .= ( $key + 1 ) . '. ' . $news_post->post_title . '. ';
 					$card_content .= ( $key + 1 ) . '. ' . $news_post->post_title . "\n";
 					$ids[] = $news_post->ID;
 				}

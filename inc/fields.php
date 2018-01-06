@@ -309,10 +309,12 @@ function voicewp_fm_alexa_settings() {
 
 	$interaction_model = array();
 
+	// todo
+	// 'default_value' => file_get_contents( __DIR__ . '/../speechAssets/news/IntentSchema.json', FILE_USE_INCLUDE_PATH ),
 	$interaction_model['news_intent_schema'] = new \Fieldmanager_TextArea( array(
 		'label' => __( 'The Intent Schema for your News skill. Add this to your news skill in the <a href="https://developer.amazon.com" target="_blank">Amazon developer console</a>.', 'voicewp' ),
 		'escape' => array( 'label' => 'wp_kses_post' ),
-		'default_value' => file_get_contents( __DIR__ . '/../speechAssets/news/IntentSchema.json', FILE_USE_INCLUDE_PATH ),
+		'default_value' => file_get_contents( __DIR__ . '/../speechAssets/news/IntentSchemaDE.json', FILE_USE_INCLUDE_PATH ),
 		'skip_save' => true,
 		'attributes' => array_merge(
 			$readonly,
@@ -320,6 +322,8 @@ function voicewp_fm_alexa_settings() {
 		),
 	) );
 
+	// todo
+	// 'default_value' => "first\nsecond\nthird\nfourth\nfifth",
 	$interaction_model['custom_slot_types'] = new \Fieldmanager_Group( array(
 		'label' => __( 'Custom Slot Types', 'voicewp' ),
 		'children' => array(
@@ -337,7 +341,7 @@ function voicewp_fm_alexa_settings() {
 					) ),
 					new \Fieldmanager_TextArea( __( 'Values', 'voicewp' ), array(
 						'name' => 'VOICEWP_POST_NUMBER_WORD_values',
-						'default_value' => "first\nsecond\nthird\nfourth\nfifth",
+						'default_value' => "erste\nzweite\ndritte\nvierte\nfünfte",
 						'attributes' => array_merge(
 							$readonly,
 							array( 'style' => 'width: 50%; height: 150px; font-family: monospace;' )
@@ -376,10 +380,12 @@ function voicewp_fm_alexa_settings() {
 		'skip_save' => true,
 	) );
 
+	// todo
+	// 'default_value' => file_get_contents( __DIR__ . '/../speechAssets/news/Utterances.txt', FILE_USE_INCLUDE_PATH ),
 	$interaction_model['news_utterances'] = new Fieldmanager_TextArea( array(
 		'label' => __( 'Here\'s a starting point for your skill\'s Sample Utterances. You can add these to your news skill in the <a href="https://developer.amazon.com" target="_blank">Amazon developer console</a>.', 'voicewp' ),
 		'escape' => array( 'label' => 'wp_kses_post' ),
-		'default_value' => file_get_contents( __DIR__ . '/../speechAssets/news/Utterances.txt', FILE_USE_INCLUDE_PATH ),
+		'default_value' => file_get_contents( __DIR__ . '/../speechAssets/news/UtterancesDE.txt', FILE_USE_INCLUDE_PATH ),
 		'skip_save' => true,
 		'attributes' => array_merge(
 			$readonly,
