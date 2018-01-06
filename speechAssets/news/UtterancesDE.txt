@@ -1,0 +1,79 @@
+Neueste can I have the latest content
+Neueste can I have the latest articles
+Neueste can I have the latest stories
+Neueste can I have the latest news
+Neueste what is the latest content
+Neueste what are the latest articles
+Neueste what are the latest stories
+Neueste what is the latest news
+Neueste what's the latest content
+Neueste what're the latest articles
+Neueste what're the latest stories
+Neueste what's the latest news
+Neueste the latest content
+Neueste the latest articles
+Neueste the latest stories
+Neueste the latest news
+Neueste give me the latest content
+Neueste give me the latest articles
+Neueste give me the latest stories
+Neueste give me the latest news
+Neueste get the latest content
+Neueste get the latest articles
+Neueste get the latest stories
+Neueste get the latest news
+Neueste what's up
+Neueste what's new
+Neueste read the latest content
+Neueste read the latest articles
+Neueste read the latest stories
+Neueste read the latest news
+Neueste read me the latest content
+Neueste read me the latest articles
+Neueste read me the latest stories
+Neueste read me the latest news
+Neueste tell me the latest articles
+Neueste tell me the latest stories
+Neueste tell me the latest news
+AktuellesTerm the latest {TermName} articles
+AktuellesTerm the latest {TermName} content
+AktuellesTerm the latest {TermName} news
+AktuellesTerm the latest {TermName} stories
+AktuellesTerm {TermName} content
+AktuellesTerm {TermName} articles
+AktuellesTerm {TermName} stories
+AktuellesTerm {TermName} news
+AktuellesTerm Get the latest {TermName} articles
+AktuellesTerm Get the latest {TermName} content
+AktuellesTerm Get the latest {TermName} news
+AktuellesTerm Get the latest {TermName} stories
+AktuellesTerm Get {TermName} articles
+AktuellesTerm Get {TermName} content
+AktuellesTerm Get {TermName} news
+AktuellesTerm Get {TermName} stories
+LeseBeitrag Read the {PostNumber}
+LeseBeitrag Read the {PostNumber} post
+LeseBeitrag Read the {PostNumber} article
+LeseBeitrag Read the {PostNumber} story
+LeseBeitrag Read {PostNumber}
+LeseBeitrag Read {PostNumber} to me
+LeseBeitrag Read me the {PostNumber}
+LeseBeitrag Read me the {PostNumber} post
+LeseBeitrag Read me the {PostNumber} article
+LeseBeitrag Read me the {PostNumber} story
+LeseBeitrag Read me {PostNumber}
+LeseBeitrag Read the {PostNumberWord}
+LeseBeitrag Read the {PostNumberWord} post
+LeseBeitrag Read the {PostNumberWord} article
+LeseBeitrag Read the {PostNumberWord} story
+LeseBeitrag Read {PostNumberWord}
+LeseBeitrag Read me the {PostNumberWord}
+LeseBeitrag Read me the {PostNumberWord} post
+LeseBeitrag Read me the {PostNumberWord} article
+LeseBeitrag Read me the {PostNumberWord} story
+LeseBeitrag Read me {PostNumberWord}
+LeseBeitrag Read the {PostNumberWord} to me
+LeseBeitrag Read the {PostNumberWord} post to me
+LeseBeitrag Reade the {PostNumberWord} article to me
+LeseBeitrag Read the {PostNumberWord} story to me
+LeseBeitrag Read {PostNumberWord} to me
